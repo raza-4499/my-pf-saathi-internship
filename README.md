@@ -2,8 +2,32 @@
 
 My PF Saathi is a Telegram bot project designed to help users navigate common EPFO-related tasks.
 
-## Features
 
+
+## Live Telegram Bot
+
+[Open My PF Saathi on Telegram](https://t.me/PFSAATHIBOT)
+
+## Project Screenshots
+
+### 1. Bot Welcome Screen
+![Bot Welcome Screen](docs/screenshots/01-homepage)
+
+### 2. Feature Working
+![Feature Working](docs/screenshots/02-features)
+
+### 3. AWS Screen Page
+![Features Menu](docs/screenshots/05-aws_ec2_page)
+
+
+
+## Demo Video
+
+[Watch Project Demo](https://youtube.com/shorts/R9oq0My973c?si=BAJfcnM7r1dl3Zms)
+
+
+
+## Features
 - PF passbook balance checking
 - Guided EPFO password recovery workflow
 - Hindi and English interaction
