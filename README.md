@@ -2,8 +2,6 @@
 
 My PF Saathi is a Telegram bot project designed to help users navigate common EPFO-related tasks.
 
-
-
 ## Live Telegram Bot
 
 [Open My PF Saathi on Telegram](https://t.me/PFSAATHIBOT)
@@ -11,23 +9,23 @@ My PF Saathi is a Telegram bot project designed to help users navigate common EP
 ## Project Screenshots
 
 ### 1. Bot Welcome Screen
-![Bot Welcome Screen](docs/screenshots/01-homepage)
+
+![Bot Welcome Screen](docs/screenshots/01-homepage.png)
 
 ### 2. Feature Working
-![Feature Working](docs/screenshots/02-features)
 
-### 3. AWS Screen Page
-![Features Menu](docs/screenshots/05-aws_ec2_page)
+![Feature Working](docs/screenshots/02-features.png)
 
+### 3. AWS EC2 Deployment
 
+![AWS EC2 Deployment](docs/screenshots/05-aws_ec2_page.png)
 
 ## Demo Video
 
-[Watch Project Demo](https://youtube.com/shorts/R9oq0My973c?si=BAJfcnM7r1dl3Zms)
-
-
+[Watch the My PF Saathi Demo](https://www.youtube.com/shorts/R9oq0My973c)
 
 ## Features
+
 - PF passbook balance checking
 - Guided EPFO password recovery workflow
 - Hindi and English interaction
@@ -47,17 +45,23 @@ My PF Saathi is a Telegram bot project designed to help users navigate common EP
 2. Clone this repository.
 3. Install project dependencies:
 
+   ```bash
    npm install
+   ```
 
 4. Install the Playwright Chromium browser:
 
+   ```bash
    npx playwright install chromium
+   ```
 
 5. Create a PostgreSQL database and apply the SQL schema from `src/db/schema.sql`.
 6. Create a local `.env` file with your own configuration.
 7. Start the bot:
 
+   ```bash
    node src/bot.js
+   ```
 
 ## Environment Configuration
 
@@ -73,10 +77,6 @@ Configure these variables in your local `.env` file:
 - `MAX_CONCURRENT_JOBS`
 
 Replace placeholders with your own values. Never upload `.env` or share credentials publicly.
-
-## Screenshots and Demo
-
-Project screenshots and a demonstration video will be added here.
 
 ## Disclaimer
 
